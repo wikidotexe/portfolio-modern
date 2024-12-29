@@ -9,10 +9,14 @@ import { Mail } from "lucide-react";
 // Animation
 import { Fade } from "react-awesome-reveal";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/useInView";
+import { useActiveSectionContext } from "@/containers/active-section";
 
 export default function Intro() {
+  const { ref } = useSectionInView("#home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
-    <section id="home" className="mb-28 max-w-[75rem] text-center sm:mb-0">
+    <section ref={ref} id="home" className="mb-28 max-w-[75rem] text-center sm:mb-0">
       <div className="flex item-center justify-center">
         <div className="relative">
           <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", stiffness: 125, damping: 10, duration: 0.2 }}>
