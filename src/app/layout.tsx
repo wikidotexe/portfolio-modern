@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 import Providers from "@/containers/providers";
+import ThemeSwitch from "@/components/theme-controller";
 import Navbar from "@/components/navbar";
 
 const sora = Sora({
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Providers>
           <Navbar />
           {children}
+          <ThemeSwitch />
         </Providers>
       </body>
     </html>
