@@ -32,7 +32,7 @@ export const projectsData: ProjectInfo[] = [
     link: "https://nofileexistshere.my.id",
   },
   {
-    title: "Installation Network Server",
+    title: "Installation Network",
     description: "Installed Mikrotik RB1100 HX2 at PT Smartec Teknologi Indonesia (Bantu Saku), featuring the latest technology with 1Gbps speed.",
     tags: ["Winbox", "Mikrotik", "VPN", "Load Balancing"],
     imageUrl: "/images/projects/project3.png",
@@ -41,7 +41,7 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Implementation & Setup Server",
     description: "Implemented and configured Synology NAS at PT Lizzie Parra Kreasi (BLP Beauty), delivering advanced storage solutions.",
-    tags: ["Synology", "NAS", "VPS"],
+    tags: ["Synology", "NAS", "VPS", "Port Forwarding", "DNS"],
     imageUrl: "/images/projects/project4.png",
     link: "#",
   },
@@ -66,4 +66,24 @@ export const projectsData: ProjectInfo[] = [
     imageUrl: "/images/projects/project6.png",
     link: "#",
   },
+];
+export const skillsData = [
+  "Networking",
+  "Virtualization",
+  "Configuration",
+  "Bash/Shell",
+  "Troubleshooting",
+  "Operating System",
+  "PHP",
+  "Javascript",
+  "Laravel",
+  "Filament",
+  "Mysql",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Apache/Nginx",
+  "CDN",
+  "Docker",
+  "AWS",
 ];

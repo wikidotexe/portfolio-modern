@@ -11,7 +11,7 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>My works</SectionHeading>
+      <SectionHeading>Featured Portfolios</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <Project {...project} key={index} />
