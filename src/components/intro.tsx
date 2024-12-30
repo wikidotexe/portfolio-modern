@@ -26,8 +26,7 @@ export default function Intro() {
       </div>
       <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
         <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-          <span className="font-medium !leading-[1.5]">Hello, this is my personal portfolio website 👋</span>
-          <p className="text-[14px]">My journey in the realm of technology has been marked by diverse experience in IT Support</p>
+          <span className="font-medium !leading-[1.5] ">Hello, this is my personal portfolio website 👋</span> <p className="text-[14px]">My journey in the realm of technology has been marked by diverse experience in IT Support.</p>
         </h1>
       </Fade>
       <motion.div className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
