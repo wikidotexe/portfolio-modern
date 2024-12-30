@@ -24,7 +24,7 @@ export default function About() {
               <div className="flex justify-start flex-col">
                 <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    For more than 2 years, I have been continuously studying in the field of IT Support and Systems Engineer experimenting with new technologies and frameworks, and here you can see a summary of my skills. IT Support field
+                    For more than 3 years, I have been continuously studying in the field of IT Support and Systems Engineer experimenting with new technologies and frameworks, and here you can see a summary of my skills. IT Support field
                     and experimenting with new technology.
                   </p>
                 </Fade>

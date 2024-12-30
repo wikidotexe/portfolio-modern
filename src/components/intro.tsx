@@ -20,13 +20,13 @@ export default function Intro() {
       <div className="flex item-center justify-center">
         <div className="relative">
           <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", stiffness: 125, damping: 10, duration: 0.2 }}>
-            <Image src="/images/hero-image.png" width="400" height="400" alt="portrait" quality="100" priority={true} className="rounded-full object-cover shadow-xl" />
+            <Image src="/images/about/hero-image.png" width="400" height="400" alt="portrait" quality="100" priority={true} className="rounded-full object-cover shadow-xl" />
           </motion.div>
         </div>
       </div>
       <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
         <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-          <span className="font-medium !leading-[1.5] ">Hello, this is my personal portfolio website 👋</span> <p className="text-[14px]">My journey in the realm of technology has been marked by diverse experience in IT Support.</p>
+          <span className="font-medium !leading-[1.5] ">Hello, I'm Wikidotexe 👋</span> <p className="text-[14px]">My journey in the realm of technology has been marked by diverse experience in IT Support.</p>
         </h1>
       </Fade>
       <motion.div className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
