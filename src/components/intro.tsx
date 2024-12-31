@@ -4,7 +4,6 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
-import { Mail } from "lucide-react";
 
 // Animation
 import { Fade } from "react-awesome-reveal";
