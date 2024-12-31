@@ -1,5 +1,3 @@
-Require("dotenv").config(); // Make sure to load .env
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
@@ -24,14 +22,14 @@ app.post("/send-email", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL_USER, // Menggunakan email dari .env
-        pass: process.env.EMAIL_PASS, // Menggunakan password dari .env
+        user: "07wikiarlianm@gmail.com",
+        pass: "izvyhjylloaqhnsn", // Gunakan App Password
       },
     });
 
     const mailOptions = {
       from: `"${name}" <${senderEmail}>`,
-      to: process.env.EMAIL_USER, // Mengirim ke email yang sama dengan yang ada di .env
+      to: "07wikiarlianm@gmail.com",
       subject: `New Message from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
