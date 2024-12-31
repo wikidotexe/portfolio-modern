@@ -76,7 +76,8 @@ export const projectsData: ProjectInfo[] = [
 ];
 export const skillsData = [
   "Networking",
-  "Virtual Private Network",
+  "VPN",
+  "Load Balancing",
   "Policy Based Route",
   "7 Layers Protocol",
   "Virtualization",
@@ -84,6 +85,7 @@ export const skillsData = [
   "Bash/Shell",
   "Troubleshooting",
   "Operating System",
+  "WSL",
   "Javascript",
   "PHP",
   "Laravel",
@@ -95,5 +97,4 @@ export const skillsData = [
   "Apache/Nginx",
   "CDN",
   "Docker",
-  "WSL",
 ];
