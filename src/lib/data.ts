@@ -25,7 +25,7 @@ export const links: Link[] = [
 
 export const projectsData: ProjectInfo[] = [
   {
-    title: "Web App",
+    title: "Landing Page",
     description: "Creating a WebApp-Based Company Profile for NoFileExistsHere, with content accessible through an admin panel and customizable as needed.",
     tags: ["PHP", "Laravel", "Filament", "Livewire", "Mysql", "Tailwind"],
     imageUrl: "/images/projects/project1.png",
@@ -64,6 +64,13 @@ export const projectsData: ProjectInfo[] = [
     description: "Introducing the new Mikrotik RB1100 HX2 server at PT Bon Cafe Indonesia With lightning-fast 1Gbps speed and capacity for over 50 users.",
     tags: ["Mikrotik", "Winbox"],
     imageUrl: "/images/projects/project6.png",
+    link: "#",
+  },
+  {
+    title: "Personal Portfolio",
+    description: "Creating and updating a personal portfolio to be more modern and minimalist, with eye-catching animations.",
+    tags: ["React", "Next.Js", "Node.Js", "Tailwind"],
+    imageUrl: "/images/projects/project7.png",
     link: "#",
   },
 ];
