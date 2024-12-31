@@ -76,8 +76,8 @@ export const projectsData: ProjectInfo[] = [
 ];
 export const skillsData = [
   "Networking",
-  "VPN",
-  "LAN",
+  "Virtual Private Network",
+  "Policy Based Route",
   "7 Layers Protocol",
   "Virtualization",
   "Configuration",
