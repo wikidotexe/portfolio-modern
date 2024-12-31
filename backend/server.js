@@ -1,4 +1,4 @@
-require("dotenv").config(); // Memuat variabel dari file .env
+Require("dotenv").config(); // Make sure to load .env
 
 const express = require("express");
 const bodyParser = require("body-parser");
