@@ -74,7 +74,6 @@ export const skillsData = [
   "Bash/Shell",
   "Troubleshooting",
   "Operating System",
-  "Python",
   "Javascript",
   "PHP",
   "Laravel",
@@ -86,4 +85,5 @@ export const skillsData = [
   "Apache/Nginx",
   "CDN",
   "Docker",
+  "WSL",
 ];
