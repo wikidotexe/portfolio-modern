@@ -26,7 +26,7 @@ export default function About() {
                     With over three years of experience, I have dedicated myself to learning and excelling in the fields of IT Support and Systems Engineering. My journey has been driven by a passion for exploring new technologies and
                     frameworks, constantly pushing the boundaries of my technical expertise. During this time, I have gained valuable hands-on experience in troubleshooting, system configuration, and providing effective technical support to
                     meet diverse challenges. I am continually experimenting with cutting-edge technologies and tools to stay updated in this ever-evolving industry. My commitment to learning and adapting has allowed me to acquire a diverse
-                    skill set, which you can explore in more detail below. Whether it's managing IT systems, solving complex issues, or testing emerging technologies, I strive to deliver impactful solutions and consistently improve my
+                    skill set, which you can explore in more detail below. Whether It&apos;s managing IT systems, solving complex issues, or testing emerging technologies, I strive to deliver impactful solutions and consistently improve my
                     knowledge base.
                   </p>
                 </Fade>
