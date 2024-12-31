@@ -6,7 +6,6 @@ import { Link } from "@/lib/types";
 import clsx from "clsx";
 import NextLink from "next/link";
 import { useActiveSectionContext } from "@/containers/active-section";
-import { Menu } from "lucide-react";
 import Hamburger from "hamburger-react";
 
 type HamburgerMenuProps = { links: Link[] };

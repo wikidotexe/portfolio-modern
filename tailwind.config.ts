@@ -1,7 +1,6 @@
-import { Sora } from "next/font/google";
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
@@ -10,10 +9,11 @@ export default {
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        Sora: [`var(--font-sora)`, `sans-serif`],
+        Sora: [`var(--font-sora)`, "sans-serif"],
       },
     },
   },
   plugins: [],
   darkMode: "class",
-} satisfies Config;
+};
+export default config;

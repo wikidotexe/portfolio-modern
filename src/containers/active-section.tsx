@@ -1,5 +1,5 @@
 "use client";
-import { SectionName } from "@/lib/types";
+import { SectionName } from "@/lib/types"; // Pastikan tipe ini sesuai dengan nilai awal
 import React, { useState, createContext, useContext } from "react";
 
 type ActiveSectionContextProviderProps = {
@@ -13,11 +13,13 @@ type ActiveSectionContextType = {
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
+// Buat konteks dengan nilai default null
 export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
 
 export default function ActiveSectionContextProvider({ children }: ActiveSectionContextProviderProps) {
-  const [activeSection, setActiveSection] = useState<SectionName>("#home");
-  const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+  // State untuk menyimpan bagian aktif dan waktu klik terakhir
+  const [activeSection, setActiveSection] = useState<SectionName>("#home" as SectionName);
+  const [timeOfLastClick, setTimeOfLastClick] = useState<number>(0);
 
   return (
     <ActiveSectionContext.Provider
@@ -37,7 +39,7 @@ export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
 
   if (context === null) {
-    throw new Error("useActiveSectionContext must be used within an ActiveSectionContextProvider");
+    throw new Error("useActiveSectionContext must be used within an <ActiveSectionContextProvider>. Wrap your component in the provider.");
   }
 
   return context;

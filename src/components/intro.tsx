@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
@@ -15,6 +15,16 @@ import { useActiveSectionContext } from "@/containers/active-section";
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  // Update active section and time of last click when section is in view
+  useEffect(() => {
+    // Set active section when the section is in view
+    setActiveSection("#home");
+
+    // Set time of last click (or update it based on your logic)
+    setTimeOfLastClick(Date.now());
+  }, [setActiveSection, setTimeOfLastClick]);
+
   return (
     <section ref={ref} id="home" className="mb-28 max-w-[75rem] text-center sm:mb-0">
       <div className="flex item-center justify-center">
@@ -34,7 +44,7 @@ export default function Intro() {
           Connect <Mail color={"#9ca3af"} />
         </Link>
         <a
-          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-[1.05] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/dwiki-arlian-maulana-852b14209/"
           target="_blank"
         >

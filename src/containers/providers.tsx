@@ -1,6 +1,5 @@
 import React from "react";
 import ActiveSectionContextProvider from "./active-section";
-import dynamic from "next/dynamic";
 import ThemeContextProvider from "./theme-context";
 
 type ProvidersProps = {

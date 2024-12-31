@@ -1,22 +1,29 @@
+const express = require("express");
+const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
+const cors = require("cors");
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
+const app = express();
+const PORT = 5000;
 
+// Middleware
+app.use(bodyParser.json());
+app.use(cors());
+
+// Endpoint untuk mengirim email
+app.post("/send-email", async (req, res) => {
   const { name, senderEmail, message } = req.body;
 
   if (!name || !senderEmail || !message) {
-    return res.status(400).json({ error: "Please provide name, senderEmail, and message." });
+    return res.status(400).send("Please provide name, senderEmail, and message.");
   }
 
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: "07wikiarlianm@gmail.com",
+        pass: "izvyhjylloaqhnsn", // Gunakan App Password
       },
     });
 
@@ -38,9 +45,13 @@ export default async function handler(req, res) {
 
     await transporter.sendMail(mailOptions);
 
-    res.status(200).json({ message: "Email sent successfully!" });
+    res.status(200).send("Email sent successfully.");
   } catch (error) {
     console.error("Error sending email:", error);
-    res.status(500).json({ error: "Failed to send email." });
+    res.status(500).send("Failed to send email.");
   }
-}
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
