@@ -71,7 +71,7 @@ export const projectsData: ProjectInfo[] = [
     description: "Creating and updating a personal portfolio to be more modern and minimalist, with eye-catching animations.",
     tags: ["React", "Next.Js", "Node.Js", "Tailwind"],
     imageUrl: "/images/projects/project7.png",
-    link: "#",
+    link: "https://wikidotexe.xyz",
   },
 ];
 export const skillsData = [
