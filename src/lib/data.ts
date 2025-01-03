@@ -25,7 +25,7 @@ export const links: Link[] = [
 
 export const projectsData: ProjectInfo[] = [
   {
-    title: "Landing Page",
+    title: "Web App",
     description: "Creating a WebApp-Based Company Profile for NoFileExistsHere, with content accessible through an admin panel and customizable as needed.",
     tags: ["PHP", "Laravel", "Filament", "Livewire", "Mysql", "Tailwind"],
     imageUrl: "/images/projects/project1.png",
@@ -72,6 +72,13 @@ export const projectsData: ProjectInfo[] = [
     tags: ["React", "Next.Js", "Node.Js", "Tailwind"],
     imageUrl: "/images/projects/project7.png",
     link: "https://wikidotexe.xyz",
+  },
+  {
+    title: "Landing Page",
+    description: "I created a responsive landing page for CV Berkah Teknik Mandiri, an engineering and construction services company.",
+    tags: ["PHP", "CSS", "Javascript", "Mysql", "Bootsrap"],
+    imageUrl: "/images/projects/project8.png",
+    link: "https://pwl-berkah-teknik-mandiri.vercel.app/",
   },
 ];
 export const skillsData = [
