@@ -37,6 +37,11 @@ export default function Skills() {
               once: true,
             }}
             custom={index}
+            whileHover={{
+              scale: 1.1,
+              backgroundColor: "rgba(0, 123, 255, 0.1)", // Warna latar saat hover
+              boxShadow: "0px 4px 10px rgba(0, 123, 255, 0.2)", // Efek bayangan saat hover
+            }}
           >
             {skill}
           </motion.li>
