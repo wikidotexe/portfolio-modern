@@ -1,81 +1,112 @@
-# 🚀 Next.js Project
+![logo wikidotexe](https://github.com/user-attachments/assets/da82fc30-1dbe-48bf-b57c-033dec2ceb9d)
 
-Welcome to your Next.js project! This application was bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), and it’s ready to help you build amazing web experiences.
+# Portfolio Modern
+
+[![GitHub Stars](https://img.shields.io/github/stars/wikidotexe/Portfolio-modern?style=social)](https://github.com/wikidotexe/Portfolio-modern/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/wikidotexe/Portfolio-modern?style=social)](https://github.com/wikidotexe/Portfolio-modern/network)
+
+Portfolio-modern ini adalah proyek Next.js yang dirancang untuk menampilkan portofolio dengan desain modern, responsif, dan menarik. Proyek ini memberikan pengalaman pengguna yang optimal dengan performa tinggi.
+
+> **Status Proyek**: 🚀 Aktif Dikembangkan
 
 ---
 
-## 🏃 Getting Started
+## 🔍 **Fitur Utama**
 
-Follow these steps to run the development server:
+- 🎨 **Desain Modern**:
+  - Dibangun dengan **Next.js** dan antarmuka yang memukau.
+- 📱 **Responsif**:
+  - Desain yang menyesuaikan di berbagai perangkat, baik desktop maupun mobile.
+- ⚡ **Performa Tinggi**:
+  - Didukung oleh optimasi bawaan Next.js untuk kecepatan maksimal.
+- 🌐 **Tipografi Elegan**:
+  - Menggunakan font [Geist](https://vercel.com/font) dari Vercel untuk tampilan teks yang bersih.
+- 🚀 **Siap Dideploy**:
+  - Integrasi mudah dengan platform deployment seperti Vercel.
 
-```bash
-# Using npm
-npm run dev
+---
 
-# Or using yarn
-yarn dev
+## 📂 **Struktur Proyek**
 
-# Or using pnpm
-pnpm dev
-
-# Or using bun
-bun dev
+```
+Portfolio-modern/
+├── app/
+├── components/
+├── pages/
+├── public/
+├── styles/
+├── .env.local
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md
 ```
 
-Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser to see your application.
+---
 
-You can start editing by modifying the `app/page.tsx` file. Changes will be automatically reflected in your browser.
+## 🎯 **Cara Install**
+
+1. **Clone Repository**:
+
+   ```bash
+   git clone https://github.com/wikidotexe/Portfolio-modern.git
+   cd Portfolio-modern
+   ```
+
+2. **Install Dependencies**:
+   Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) dan [npm](https://www.npmjs.com/).
+
+   ```bash
+   npm install
+   ```
+
+3. **Setup Environment**:
+   Buat file `.env.local` dan sesuaikan dengan kebutuhan proyek Anda.
+
+4. **Run Development Server**:
+   Jalankan server pengembangan dengan perintah berikut:
+
+   ```bash
+   npm run dev
+   ```
+
+   Kemudian buka `http://localhost:3000` di browser Anda.
 
 ---
 
-## 🎨 Optimized Typography
+## 🚀 **Deploy ke Vercel**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to optimize and load the beautiful [Geist](https://vercel.com/font) font family from Vercel. Enjoy clean, modern typography out of the box.
+1. Push kode Anda ke repository GitHub.
+2. Hubungkan repository Anda ke [Vercel](https://vercel.com/).
+3. Nikmati build dan deployment otomatis.
 
----
-
-## 📚 Learn More
-
-Dive deeper into Next.js with these resources:
-
-- 📖 [Next.js Documentation](https://nextjs.org/docs): Explore the core features and API.
-- 🛠️ [Learn Next.js](https://nextjs.org/learn): A hands-on interactive tutorial to master Next.js.
-- 💻 [Next.js GitHub Repository](https://github.com/vercel/next.js): Contribute, explore, and stay updated.
+Detail lebih lanjut dapat ditemukan di [dokumentasi Next.js](https://nextjs.org/docs/deployment).
 
 ---
 
-## 🚀 Deploy on Vercel
+## 📜 **Kontribusi**
 
-Deploying your Next.js app is seamless with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), created by the makers of Next.js.
+Kami menyambut kontribusi dari siapa pun yang ingin membantu pengembangan proyek ini. Berikut langkah-langkah untuk berkontribusi:
 
-### Deployment Steps:
-
-1. Push your code to a GitHub, GitLab, or Bitbucket repository.
-2. Connect your repository to Vercel.
-3. Enjoy automatic builds and deployments!
-
-For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
-
----
-
-## 🛠️ Project Highlights
-
-- **Scalable:** Built with a powerful framework for large-scale applications.
-- **Modern:** Uses cutting-edge web technologies for performance and accessibility.
-- **Customizable:** Easily extendable to fit your specific needs.
-
----
-
-## 🧑‍💻 Contributing
-
-We welcome contributions to this project! Feel free to submit issues, suggest features, or open pull requests to improve the application.
+1. Fork repositori ini.
+2. Buat branch fitur baru:
+   ```bash
+   git checkout -b fitur-keren
+   ```
+3. Commit perubahan Anda:
+   ```bash
+   git commit -m "Menambahkan fitur keren"
+   ```
+4. Push ke branch Anda:
+   ```bash
+   git push origin fitur-keren
+   ```
+5. Buat **Pull Request** di GitHub.
 
 ---
 
-## 💬 Feedback
+## 🌟 **Terima Kasih**
 
-Have feedback or questions? Open an issue on the repository or reach out to the community.
-
----
+Terima kasih telah mengunjungi repositori ini! Jika Anda merasa proyek ini bermanfaat, jangan ragu untuk memberikan ⭐ dan share kepada teman-teman Anda.
 
 Happy coding! 🎉
