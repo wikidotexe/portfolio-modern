@@ -14,6 +14,13 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "Web Portfolio",
   description: "Web Portfolio | Wikidotexe",
+  keywords: ["Portfolio", "Web Development", "Dwiki Arlian Maulana", "IT Support", "Systems Engineering"],
+  openGraph: {
+    title: "Web Portfolio | Wikidotexe",
+    description: "Showcasing my journey in IT Support and Systems Engineering.",
+    url: "https://wikidotexe.xyz",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
