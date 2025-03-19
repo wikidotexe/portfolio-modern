@@ -29,7 +29,7 @@ export const projectsData: ProjectInfo[] = [
     description: "Creating a WebApp-Based Company Profile for NoFileExistsHere, with content accessible through an admin panel and customizable as needed.",
     tags: ["PHP", "Laravel", "Filament", "Livewire", "Mysql", "Tailwind"],
     imageUrl: "/images/projects/project1.png",
-    link: "https://nofileexistshere.my.id",
+    link: "https://www.nofileexistshere.my.id",
   },
   {
     title: "Installation Network",
