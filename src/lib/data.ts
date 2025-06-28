@@ -78,7 +78,7 @@ export const projectsData: ProjectInfo[] = [
     description: "I created a responsive landing page for CV Berkah Teknik Mandiri, an engineering and construction services company.",
     tags: ["PHP", "CSS", "Javascript", "Mysql", "Bootsrap"],
     imageUrl: "/images/projects/project8.png",
-    link: "https://pwl-berkah-teknik-mandiri.vercel.app/",
+    link: "https://cv-teknikmandiri.vercel.app/",
   },
 ];
 export const skillsData = [
