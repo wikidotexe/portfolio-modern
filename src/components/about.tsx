@@ -23,11 +23,8 @@ export default function About() {
               <div className="flex justify-start flex-col">
                 <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    With over three years of experience, I have dedicated myself to learning and excelling in the fields of IT Support and Systems Engineering. My journey has been driven by a passion for exploring new technologies and
-                    frameworks, constantly pushing the boundaries of my technical expertise. During this time, I have gained valuable hands-on experience in troubleshooting, system configuration, and providing effective technical support to
-                    meet diverse challenges. I am continually experimenting with cutting-edge technologies and tools to stay updated in this ever-evolving industry. My commitment to learning and adapting has allowed me to acquire a diverse
-                    skill set, which you can explore in more detail below. Whether It&apos;s managing IT systems, solving complex issues, or testing emerging technologies, I strive to deliver impactful solutions and consistently improve my
-                    knowledge base.
+                    With 3 years of experience in IT Support and Systems Engineering, I have built strong skills in troubleshooting, system configuration, and delivering effective technical support. I’m passionate about exploring new
+                    technologies and frameworks, always staying updated with the latest tools. My diverse skill set enables me to manage IT systems, solve complex challenges, and deliver impactful solutions.
                   </p>
                 </Fade>
               </div>

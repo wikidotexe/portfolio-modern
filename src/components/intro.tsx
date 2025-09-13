@@ -29,7 +29,7 @@ export default function Intro() {
       <div className="flex item-center justify-center">
         <div className="relative">
           <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", stiffness: 125, damping: 10, duration: 0.2 }}>
-            <Image src="/images/about/IMG_4887.png" width="400" height="400" alt="portrait" quality="100" priority={true} className="rounded-full object-cover shadow-xl" />
+            <Image src="/images/about/wiki.jpg" width="400" height="400" alt="portrait" quality="100" priority={true} className="rounded-full object-cover shadow-xl" />
           </motion.div>
         </div>
       </div>
