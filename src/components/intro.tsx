@@ -40,7 +40,7 @@ export default function Intro() {
       </Fade>
       <motion.div className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
         <Link
-          href="https://drive.wikiarlianm.com/d/s/156OVXXh6z7FeJ8qz3U4e9Gesn7C7M2i/p11ZwT3OxUclXGQU8QYAAKDplqqDtbkW-Sb7gB9s3mww"
+          href="https://drive.wikidotexe.xyz/d/s/156OVXXh6z7FeJ8qz3U4e9Gesn7C7M2i/p11ZwT3OxUclXGQU8QYAAKDplqqDtbkW-Sb7gB9s3mww"
           target="_blank"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"
         >
