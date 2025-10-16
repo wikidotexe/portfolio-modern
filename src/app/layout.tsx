@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Web Portfolio | Wikidotexe",
     description: "Showcasing my journey in IT Support and Systems Engineering.",
-    url: "https://wikidotexe.xyz",
+    url: "https://about.wikiarlianm.com/",
     type: "website",
     images: [
       {
-        url: "https://wikidotexe.xyz/favicon.ico",
+        url: "https://about.wikiarlianm.com/favicon.ico",
         width: 32,
         height: 32,
         type: "image/x-icon",
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="!scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:image" content="https://wikidotexe.xyz/favicon.ico" />
+        <meta property="og:image" content="https://about.wikiarlianm.com/favicon.ico" />
         <meta property="og:image:type" content="image/x-icon" />
         <meta property="og:image:width" content="32" />
         <meta property="og:image:height" content="32" />

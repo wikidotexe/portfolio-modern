@@ -16,7 +16,7 @@ export default function Contact() {
     setStatus("pending");
 
     try {
-      const response = await fetch("https://wikidotexe.xyz/api/send-email", {
+      const response = await fetch("https://about.wikiarlianm.com/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, senderEmail, message }),
